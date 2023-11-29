@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Navbar.css';
+import BrandImg from './img/brand-img.png'
 
 function Navbar(){
     return(
 
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" id="nav-container">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">FITCLUB</a>
+              <img src={BrandImg} className="brand-img"/>
+              <Link to="/fitclub" class="navbar-brand">FITCLUB</Link>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -14,28 +17,28 @@ function Navbar(){
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
 
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link to="/" class="nav-link active" aria-current="page">Home</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Classes</a>
+                    <Link to="/classes" class="nav-link">Classes</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Membership</a>
+                    <Link to="/membership" class="nav-link">Membership</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Personal Tranning</a>
+                    <Link to="/personal traning" class="nav-link">Personal Tranning</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Service</a>
+                    <Link to="/service" class="nav-link">Service</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <Link to="/contact" class="nav-link">Contact</Link>
                   </li>
 
                 </ul>
                 <form class="d-flex" role="search">
-                  <button class="btn btn-outline-success" type="submit">Signup</button>
-                  <button class="btn btn-outline-success" type="submit">Login</button>
+                  <Link to="/signup" className="btn">Signup</Link>
+                  <Link to="/login" className="btn">login</Link>
                 </form>
               </div>
             </div>

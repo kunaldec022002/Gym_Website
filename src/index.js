@@ -2,18 +2,28 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import ReactDOM from 'react-dom/client';
-import Navbar from './Components/Navbar/Navbar'
+import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import Home from'./Views/Home/Home';
+import Signup from './Views/Signup/Signup';
 
-
-
+import { Form } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+
+const router = createBrowserRouter([
+  {
+    "path":"/",
+    "element":<Home/>
+  },
+  {
+    "path":"/signup",
+    "element":<Signup/>
+  }
+
+])
   
-  <>
-    <Navbar/>
-  </>
-  
+
+root.render (<RouterProvider router={router}/>);
  
-);
+
 
 
