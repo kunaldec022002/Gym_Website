@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Signup.css'
+import SignupImg from './signup img.jpg';
 import Navbar from "../../Components/Navbar/Navbar";
 
 
@@ -55,47 +56,51 @@ function Signup(){
       return (
         <div>
             <Navbar/>
-                    <div className="signup-container">
-                    <h2 className="text-center">Signup</h2>
-                    <form onSubmit={handleSubmit}>
-                        <label>
-                        Username:
-                        <input
-                            className="input-text"
-                            type="text"
-                            name="username"
-                            value={formData.username}
-                            onChange={handleChange}
-                            required
-                        />
-                        </label>
-                        <br />
-                        <label>
-                        Email:
-                        <input
-                            className="input-text"
-                            type="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            required
-                        />
-                        </label>
-                        <br />
-                        <label>
-                        Password:
-                        <input
-                            className="input-text"
-                            type="password"
-                            name="password"
-                            value={formData.password}
-                            onChange={handleChange}
-                            required
-                        />
-                        </label>
-                        <br />
-                        <button type="submit" className="signup-btn">Signup</button>
-                    </form>
+                    <div className="main-class2">
+                      <img src={SignupImg} className="loginimg2"/>
+                          <div className="signup-container">
+                            <h2 className="text-center">Signup</h2>
+                            <form onSubmit={handleSubmit}>
+                                <label>
+                                Username:
+                                <input
+                                    className="input-text"
+                                    type="text"
+                                    name="username"
+                                    value={formData.username}
+                                    onChange={handleChange}
+                                    required
+                                />
+                                </label>
+                                <br />
+                                <label>
+                                Email:
+                                <input
+                                    className="input-text"
+                                    type="email"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    required
+                                />
+                                </label>
+                                <br />
+                                <label>
+                                Password:
+                                <input
+                                    className="input-text"
+                                    type="password"
+                                    name="password"
+                                    value={formData.password}
+                                    onChange={handleChange}
+                                    required
+                                />
+                                </label>
+                                <br />
+                                <button type="submit" className="signup-btn">Signup</button>
+                            </form>
+                            <p className="text-center">Already User Please Login <a href="/login">Login</a></p>
+                          </div>
                     </div>
         </div>            
       );

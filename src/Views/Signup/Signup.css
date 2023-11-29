@@ -27,6 +27,11 @@ label
     text-align: center;
 }
 
+.signup
+{
+    background-color: orange;
+}
+
 .signup-btn
 {
     background-color: #000000;
@@ -44,4 +49,17 @@ label
     background-color: #404040;
     color: #fff;
     cursor: pointer;
+}
+
+.main-class2
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.loginimg2
+{
+    border-radius:10% 90% 77% 23% / 49% 48% 52% 51% ;
+    margin-top: 10px;
+    box-shadow: rgba(216, 74, 74, 0.7);
 }

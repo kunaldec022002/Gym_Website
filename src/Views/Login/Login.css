@@ -1,0 +1,21 @@
+.signup-container
+{
+    background-color: #fff;
+    width: fit-content;
+    margin: 40px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.main-class
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.loginimg
+{
+    margin-top: 20px;
+    border-radius: 83% 17% 76% 24% / 0% 95% 5% 100% ;
+}

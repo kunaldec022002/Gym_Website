@@ -5,8 +5,10 @@ import ReactDOM from 'react-dom/client';
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Home from'./Views/Home/Home';
 import Signup from './Views/Signup/Signup';
+import Login from './Views/Login/Login';
 
-import { Form } from 'react-router-dom';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -17,6 +19,10 @@ const router = createBrowserRouter([
   {
     "path":"/signup",
     "element":<Signup/>
+  },
+  {
+    "path":"/login",
+    "element":<Login/>
   }
 
 ])
