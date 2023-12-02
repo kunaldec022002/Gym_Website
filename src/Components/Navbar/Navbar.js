@@ -9,7 +9,7 @@ function Navbar(){
         <nav class="navbar navbar-expand-lg" id="nav-container">
             <div class="container-fluid">
               <img src={BrandImg} className="brand-img"/>
-              <Link to="/fitclub" class="navbar-brand">FITCLUB</Link>
+              <Link to="/" class="navbar-brand">FITCLUB</Link>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>

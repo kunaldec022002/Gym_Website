@@ -2,7 +2,7 @@ import React from "react";
 import './Class.css';
 import GreetingCard from '../../Components/Card/Home';
 import Navbar from "../../Components/Navbar/Navbar";
-import ClassImg from '../Classes/img/class-img.jpg';
+import TextImg from './img/text-img.jpg'
 import CrossFit from './img/crossFit.jpg'
 import KickBoxing from './img/cickboxing.webp';
 import IndoorC from './img/IndoorC.jpg';
@@ -14,8 +14,15 @@ function Class (){
 
         <div>
             <Navbar/>
-
-            <img src={ClassImg} className="card-img"/>
+                 
+            <div className="card text-bg-dark">
+                <img src={TextImg} className="card-img"/>
+                <div className="card-img-overlay">
+                    <h1 className="text-color">CLASSES</h1>
+                    <h3 className="text-color">The Best Group Exercise Classes in <b>FITCLUB</b></h3>
+                </div>
+            </div>
+               
 
             <div className="Card-Container">
                     <GreetingCard img={CrossFit}
