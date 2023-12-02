@@ -61,6 +61,7 @@ function Login( {img}){
                                     <label>
                                     Username:
                                     <input
+                                        placeholder="Enter Username"
                                         className="input-text"
                                         type="text"
                                         name="username"
@@ -74,6 +75,7 @@ function Login( {img}){
                                     <label>
                                     Password:
                                     <input
+                                        placeholder="Enter Password"
                                         className="input-text"
                                         type="password"
                                         name="password"

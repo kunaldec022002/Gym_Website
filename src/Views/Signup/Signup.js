@@ -64,6 +64,7 @@ function Signup(){
                                 <label>
                                 Username:
                                 <input
+                                    placeholder="Enter Username"
                                     className="input-text"
                                     type="text"
                                     name="username"
@@ -76,6 +77,7 @@ function Signup(){
                                 <label>
                                 Email:
                                 <input
+                                    placeholder="Enter Email"
                                     className="input-text"
                                     type="email"
                                     name="email"
@@ -88,6 +90,7 @@ function Signup(){
                                 <label>
                                 Password:
                                 <input
+                                    placeholder="Enter Password"
                                     className="input-text"
                                     type="password"
                                     name="password"
@@ -99,7 +102,7 @@ function Signup(){
                                 <br />
                                 <button type="submit" className="signup-btn">Signup</button>
                             </form>
-                            <p className="text-center">Already User Please Login <a href="/login">Login</a></p>
+                            <p className="text-center">Already User? Please <a href="/login">Login</a></p>
                           </div>
                     </div>
         </div>            

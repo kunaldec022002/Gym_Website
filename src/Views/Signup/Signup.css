@@ -61,5 +61,5 @@ label
 {
     border-radius:10% 90% 77% 23% / 49% 48% 52% 51% ;
     margin-top: 10px;
-    box-shadow: rgba(216, 74, 74, 0.7);
+    box-shadow: 3px 5px 3px 10px black;
 }
