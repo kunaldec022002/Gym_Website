@@ -1,0 +1,29 @@
+.Card-container
+{
+
+    background-color:#fff;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.greetingcard-img
+{  
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    height: 200px;
+    
+}
+
+.text-head
+{
+    text-align: center;
+}
+
+.text-para
+{
+    text-align: center;
+}

@@ -3,8 +3,14 @@
     height: 634px;
 }
 
-.text
+
+
+
+.Card-Container
 {
-    margin-top: 70px;
-    color: black;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
