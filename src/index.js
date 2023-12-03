@@ -7,6 +7,7 @@ import Home from'./Views/Home/Home';
 import Signup from './Views/Signup/Signup';
 import Login from './Views/Login/Login';
 import Class from './Views/Classes/Class';
+import Membership from './Views/Membership/Membership';
 
 
 
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
   {
     "path":"/class",
     "element":<Class/>
+  },
+
+  {
+    "path":"/membership",
+    "element":<Membership/>
   }
 
 ])

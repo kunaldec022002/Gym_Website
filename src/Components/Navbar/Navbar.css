@@ -21,6 +21,11 @@
     font-size: 20px;
     margin: 5px;
 }
+.nav-link:hover
+{
+    transform: translateY(-10px);
+    transition: 1s;
+}
 
 .brand-img
 {

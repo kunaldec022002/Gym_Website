@@ -1,0 +1,58 @@
+.text-white
+{
+    margin-top: 80px;
+    color: #fff;
+}
+
+.membership-container
+{
+    background-color: #fff;
+    width: fit-content;
+    margin: 40px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.membership
+{
+    display: block;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text
+{
+    font-family: cursive;
+    margin: 5px;
+    width: 145px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*join today*/
+
+.join-today
+{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.membership-class
+{
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+    
