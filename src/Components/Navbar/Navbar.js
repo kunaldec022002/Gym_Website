@@ -26,7 +26,7 @@ function Navbar(){
                     <Link to="/membership" class="nav-link">Membership</Link>
                   </li>
                   <li class="nav-item">
-                    <Link to="/traning" class="nav-link">Personal Tranning</Link>
+                    <Link to="/training" class="nav-link">Personal Tranning</Link>
                   </li>
                   <li class="nav-item">
                     <Link to="/service" class="nav-link">Service</Link>

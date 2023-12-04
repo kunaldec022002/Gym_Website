@@ -6,6 +6,7 @@ import Homeimg2 from '../Home/img/home-img2.jpg'
 import Homeimg3 from '../Home/img/home-img3.jpg'
 import Homeimg4 from '../Home/img/home-img4.jpg'
 import Homeimg5 from '../Home/img/home-img5.jpg'
+import Footer from "../../Components/Footer/Footer";
 
 
 
@@ -53,10 +54,9 @@ function Home(){
                 </div>
 
 
-
-                 
-            
             </div>
+
+            <Footer/>
         </div>
     )
 }

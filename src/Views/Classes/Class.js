@@ -9,6 +9,7 @@ import IndoorC from './img/IndoorC.jpg';
 import ZumbaFit from './img/zumbaFit.jpg';
 import PowerYoga from './img/poweryoga.jpg';
 import Lifting from './img/Lifting.jpg';
+import Footer from "../../Components/Footer/Footer";
 function Class (){
     return(
 
@@ -78,6 +79,8 @@ function Class (){
 
 
                     </div>    
+
+                    <Footer/>
 
         </div>
 

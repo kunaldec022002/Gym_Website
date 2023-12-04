@@ -40,7 +40,7 @@ const router = createBrowserRouter([
   },
 
   {
-    "path":"/traning",
+    "path":"/training",
     "element": <PersonalTraning/>
   },
 
