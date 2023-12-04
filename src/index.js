@@ -9,6 +9,7 @@ import Login from './Views/Login/Login';
 import Class from './Views/Classes/Class';
 import Membership from './Views/Membership/Membership';
 import PersonalTraning from './Views/Personal Training/PersonalT';
+import Service from './Views/Service/Service';
 
 
 
@@ -41,6 +42,11 @@ const router = createBrowserRouter([
   {
     "path":"/traning",
     "element": <PersonalTraning/>
+  },
+
+  {
+    "path":"/service",
+    "element":<Service/>
   }
 
 ])

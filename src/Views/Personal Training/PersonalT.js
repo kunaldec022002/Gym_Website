@@ -3,6 +3,7 @@ import './PersonalT.css';
 import TraningImg from './img/traning img.jpg'
 import Navbar from '../../Components/Navbar/Navbar'
 import Traner from './img/personal traner.webp';
+import TranerImg from './img/traner.jpg';
 
 
 function PersonalTraning (){
@@ -91,7 +92,28 @@ function PersonalTraning (){
 
                             <img src={Traner} className='traner-img'/>
 
-                        </div> 
+                        </div>
+                        
+                       <br/><br/>
+
+                        <div className='membership-class'>
+
+                            <p>
+                                    Our certified & experienced personal gym trainers are:
+
+                                    <p>1. Well-versed with the latest workout programs and equipment</p>
+                                    <p>2. Regularized using advanced technology to track your fitness</p>
+                                    <p>3. Always onto designing your exercise schedule, according to your individual fitness requirements</p>
+                                    <p>4. Consistently upgraded with their fitness knowledge- eg, Kettlebell workshops, CrossFit training, nutrition programs, etc
+
+                                    Join us for a free personal training session and experience the difference at WavesGym.</p>
+
+                                    For further information, please feel free to get in touch with us.
+
+                            </p>
+
+                                  <img src={TranerImg} className='traner'/>
+                        </div>
         </div>
     )
 }
