@@ -1,6 +1,6 @@
 import React from "react";
 import './Class.css';
-import GreetingCard from '../../Components/Card/Home';
+import GreetingCard from '../../Components/Card/Class';
 import Navbar from "../../Components/Navbar/Navbar";
 import TextImg from './img/text-img.jpg'
 import CrossFit from './img/crossFit.jpg'

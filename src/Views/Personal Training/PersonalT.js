@@ -1,54 +1,51 @@
-import React, { useState } from "react";
-import './Membership.css'
-import MembershipImg from './img/membership.jpg'
-import Navbar from "../../Components/Navbar/Navbar";
-
-function Membership (){
-
+import React, {useState} from 'react';
+import './PersonalT.css';
+import TraningImg from './img/traning img.jpg'
+import Navbar from '../../Components/Navbar/Navbar'
+import Traner from './img/personal traner.webp';
 
 
-            const [name, setName] = useState('');
-            const [email, setEmail] = useState('');
+function PersonalTraning (){
 
-            const handleSubmit = (e) => {
-                e.preventDefault();
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
 
-                // Store user data in local storage
-                const userData = { name, email };
-                localStorage.setItem('userData', JSON.stringify(userData));
+    const handleSubmit = (e) => {
+        e.preventDefault();
 
-                if (userData===userData){
-                    alert('Join Successfully');
-                    
-                }
+        // Store user data in local storage
+        const userData = { name, email };
+        localStorage.setItem('userData', JSON.stringify(userData));
+
+        if (userData===userData){
+            alert('Join Successfully');
+            
+        }
 
 
-                // Optional: You can also send the data to a server or perform other actions here
+        // Optional: You can also send the data to a server or perform other actions here
 
-                // Clear form fields
-                setName('');
-                setEmail('');
-            };
+        // Clear form fields
+        setName('');
+        setEmail('');
+    };
 
-            return (
-
-                <div>
-
-                    <Navbar/>
+    return(
+        <div>
+            <Navbar/>
 
                     <div class="card text-bg-dark">
-                      <img src={MembershipImg} class="card-img"/>
+                      <img src={TraningImg} class="card-img"/>
                       <div class="card-img-overlay">
-                        <h1 className="text-white">Membership</h1>
-                        <h3 className="text-white">We are all about you and it's our privilege to serve you.</h3>
+                        <h1 className="text-white-traning"><b>PERSONAL TRAINING</b></h1>
+                        <h3 className="text-white-traning">Certified Personal Traners.</h3>
                        </div>
                     </div>
 
-
-
                         <div className="membership-class">
 
-                            <h1>SERVING THE COMMUNITY FOR #19YEARS FOR THEIR FITNESS AND WELL-BEING.</h1>
+                            <h1>YOUR BODY & YOUR FITNESS REQUIREMENTS ARE UNIQUE.
+                            YOUR PERSONAL TRAINING SHOULD REFLECT THAT!</h1>
 
                            
                             
@@ -81,13 +78,22 @@ function Membership (){
                                 className="join-today">Join Today</button>
                                 </form>
                             </div>
-                            
 
+                            
                         </div>  
 
-                </div>  
-            );
-};
+                    
+                        <div className="membership-class">
 
-      
-export default Membership;
+                            <h1>
+                                TAKE YOUR FITNESS TO THE NEXT LEVEL WITH OUR CERTIFIED PERSONAL TRAINERS.
+                            </h1>
+
+                            <img src={Traner} className='traner-img'/>
+
+                        </div> 
+        </div>
+    )
+}
+
+export default PersonalTraning;
