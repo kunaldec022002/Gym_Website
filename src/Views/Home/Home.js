@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css'
+import Dropdown from "../../Components/DropDown/Dropdown";
 import Navbar from "../../Components/Navbar/Navbar";
 import Homeimg from '../Home/img/home img.jpg'
 import Homeimg2 from '../Home/img/home-img2.jpg'
@@ -11,7 +12,7 @@ import Footer from "../../Components/Footer/Footer";
 
 
 function Home(){
-
+    
     return(
 
         <div>
@@ -51,6 +52,21 @@ function Home(){
                         </button>
                         </div>
                             
+                </div>
+
+                <div>
+                    <div className="bgColor">
+                        <h2 className="text-center white">EXPERIENCE THE FITNESS WAVE <br/>AT FITCLUB FRIENDLIEST GYM!</h2>
+                        <h1 className="text-center main-head">JOIN FITCLUB TODAY</h1>
+
+                         <div className="dropdown-information"> 
+
+                          <Dropdown/>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
 

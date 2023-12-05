@@ -31,10 +31,7 @@ function Navbar(){
                   <li class="nav-item">
                     <Link to="/service" class="nav-link">Service</Link>
                   </li>
-                  <li class="nav-item">
-                    <Link to="/contact" class="nav-link">Contact</Link>
-                  </li>
-
+                 
                 </ul>
                 <form class="d-flex" role="search">
                   <Link to="/signup" className="btn signup">Signup</Link>
