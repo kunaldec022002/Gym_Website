@@ -32,6 +32,7 @@ const Dropdown = () => {
 
     return (
         <div>
+          <div>
             <select value={selectedValue} className="drop-container" onChange={handleSelection}>
                 <option value="" className="option">Select an option</option>
                 <option value="Free 1-Day Pass" className="option">Free 1-Day Pass</option>
@@ -48,7 +49,8 @@ const Dropdown = () => {
                   className="Send-btn">
                     Send
                 </button>
-            
+          </div>
+          
         </div>
             
         

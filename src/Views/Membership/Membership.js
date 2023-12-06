@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Membership.css'
 import MembershipImg from './img/membership.jpg'
 import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 function Membership (){
 
@@ -84,6 +85,10 @@ function Membership (){
                             
 
                         </div>  
+
+                        <div>
+                            <Footer/>
+                        </div>
 
                 </div>  
             );

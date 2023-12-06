@@ -4,6 +4,7 @@ import TraningImg from './img/traning img.jpg'
 import Navbar from '../../Components/Navbar/Navbar'
 import Traner from './img/personal traner.webp';
 import TranerImg from './img/traner.jpg';
+import Footer from '../../Components/Footer/Footer';
 
 
 function PersonalTraning (){
@@ -114,6 +115,8 @@ function PersonalTraning (){
 
                                   <img src={TranerImg} className='traner'/>
                         </div>
+
+                        <Footer/>
         </div>
     )
 }

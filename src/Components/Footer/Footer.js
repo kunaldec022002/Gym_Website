@@ -29,7 +29,7 @@ function Footer(){
                 </div>
 
                 <div>
-                    <h3>Feedback</h3>
+                    <h3>Contact</h3>
 
                     
                 </div>

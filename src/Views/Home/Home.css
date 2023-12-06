@@ -43,3 +43,20 @@
     padding: 10px;
     font-size: 25px;
 }
+
+.trainer-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+
+    .trainer-img-home
+    {
+        width: 500px;
+        border-radius: 10px;
+        display: block;
+        
+    }
+    

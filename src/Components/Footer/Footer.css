@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 5px;
 
 }
 
@@ -31,6 +32,11 @@
     margin: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px 2px black;
+}
+
+.footer-icons:hover
+{
+    transform: translate(2px);
 }
 
 

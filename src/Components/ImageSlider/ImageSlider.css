@@ -1,0 +1,21 @@
+.slider-image
+{
+    width: 90%;
+    height: 600px;
+}
+
+.prev-btn
+{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color:#42f58d ;
+}
+
+.next-btn
+{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #42b6f5;
+}
