@@ -29,7 +29,7 @@ function Navbar(){
                     <Link to="/training" class="nav-link">Personal Tranning</Link>
                   </li>
                   <li class="nav-item">
-                    <Link to="/service" class="nav-link">Service</Link>
+                    <Link to="/Career" class="nav-link">Careers</Link>
                   </li>
                  
                 </ul>

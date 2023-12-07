@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './Login.css'
 import Navbar from "../../Components/Navbar/Navbar";
 import LogImg from './img/login img.webp'
+import Footer from "../../Components/Footer/Footer";
 
 function Login( {img}){
 
@@ -100,6 +101,7 @@ function Login( {img}){
                         
                     </div>  
                 </div>
+                <Footer/>
         </div>
 
         

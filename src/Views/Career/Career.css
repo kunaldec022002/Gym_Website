@@ -1,0 +1,7 @@
+.Career
+{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap
+}

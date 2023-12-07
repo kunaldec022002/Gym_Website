@@ -55,6 +55,7 @@ function Membership (){
                             
 
                             <div className="membership-container">
+                                <h1 className="text-center">Sign-Up Today!</h1>
                                 <form onSubmit={handleSubmit}>
                                 <label> Name: </label>
                                 

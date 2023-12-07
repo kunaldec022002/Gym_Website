@@ -20,9 +20,9 @@ function Footer(){
 
                 <div>
                     <h3>Quick Links</h3>
-                    <p><Link to="/service" className="quick-link">Service</Link></p>
+                    <p><Link to="/career" className="quick-link">Careers</Link></p>
                     <p><Link to="/class"  className="quick-link">Class</Link></p>
-                    <p><Link to="membership"  className="quick-link">Membership</Link></p>
+                    <p><Link to="/membership"  className="quick-link">Membership</Link></p>
                     <p><Link to="/training"  className="quick-link">Personal Traning</Link></p>
                     <p><Link to="/signup"  className="quick-link">Signup</Link></p>
                     <p><Link to="/login"  className="quick-link">Login</Link></p>

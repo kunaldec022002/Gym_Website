@@ -53,6 +53,7 @@ function PersonalTraning (){
                             
 
                             <div className="membership-container">
+                                <h1 className='text-center'>Book A Free PT Session</h1>
                                 <form onSubmit={handleSubmit}>
                                 <label> Name: </label>
                                 
@@ -74,7 +75,7 @@ function PersonalTraning (){
                                 
                                 <br />
                                 <input type="checkbox"/>
-                                <span> I am interested in a Membership at FitClub</span>
+                                <span> I am interested in a Personal Training at FitClub</span>
                                 
                                 <button type="submit"
                                 className="join-today">Join Today</button>
