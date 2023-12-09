@@ -1,0 +1,37 @@
+.contact-container
+{
+    background-image: url("../../../bg\ img.avif");
+    background-repeat: no-repeat;
+    width: fit-content;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+label
+{
+    margin:5px;
+    font-size: 25px;
+}
+.input-text
+{
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-img
+{
+    display: block;
+    width: 500px;
+}
+
+.Contact-main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -31,6 +31,10 @@ function Navbar(){
                   <li class="nav-item">
                     <Link to="/Career" class="nav-link">Careers</Link>
                   </li>
+
+                  <li class="nav-item">
+                    <Link to="/contact" class="nav-link">Contact</Link>
+                  </li>
                  
                 </ul>
                 <form class="d-flex" role="search">

@@ -49,7 +49,7 @@ function Membership (){
 
                         <div className="membership-class">
 
-                            <h1>SERVING THE COMMUNITY FOR #19YEARS FOR THEIR FITNESS AND WELL-BEING.</h1>
+                            <h1 className="mem-head">SERVING THE COMMUNITY FOR #19YEARS FOR THEIR FITNESS AND WELL-BEING.</h1>
 
                            
                             

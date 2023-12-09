@@ -66,7 +66,8 @@ function Career (){
                             <div>
                                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15077.210339513624!2d72.81450375541992!3d19.138227800000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b769baa9d761%3A0x504b5a20fb2cf18f!2sFitness%20Factory%20Andheri%2FBest%20gym%20in%20Andheri!5e0!3m2!1sen!2sin!4v1701963338325!5m2!1sen!2sin"
                                   width="600" height="450"  allowfullscreen="" 
-                                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  className="map"></iframe>
                                   <h1>Location</h1>
                             </div>
                       

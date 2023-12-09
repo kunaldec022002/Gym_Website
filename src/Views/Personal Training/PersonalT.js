@@ -46,9 +46,11 @@ function PersonalTraning (){
 
                         <div className="membership-class">
 
+                            <div>
                             <h1>YOUR BODY & YOUR FITNESS REQUIREMENTS ARE UNIQUE.
                             YOUR PERSONAL TRAINING SHOULD REFLECT THAT!</h1>
 
+                            </div>
                            
                             
 

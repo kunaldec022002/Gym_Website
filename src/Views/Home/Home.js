@@ -15,7 +15,10 @@ import Trainer from './img/PT.jpeg'
 
 function Home(){
     
+    
     return(
+
+        
 
         <div>
             <Navbar/>

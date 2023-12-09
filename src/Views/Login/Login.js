@@ -32,7 +32,7 @@ function Login( {img}){
             (u)=> u.username===formData.username && u.password===formData.password
         );
 
-        if (user)
+        if (!user)
         {
             localStorage.setItem('loggedInUser', JSON.stringify(user));
             setError(' ');
@@ -40,7 +40,7 @@ function Login( {img}){
             window.location.href='/';
         }
 
-        else
+        else 
         {
             setError('Invalid username or password');
         }

@@ -28,11 +28,7 @@ function Footer(){
                     <p><Link to="/login"  className="quick-link">Login</Link></p>
                 </div>
 
-                <div>
-                    <h3>Contact</h3>
-
-                    
-                </div>
+              
 
                 <div>
                     <h3>Social Media</h3>
